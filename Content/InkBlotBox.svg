@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="InkBlotBox.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.70911897"
+     inkscape:cx="396.97147"
+     inkscape:cy="561.25984"
+     inkscape:window-width="1920"
+     inkscape:window-height="992"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <filter
+       inkscape:label="Ink Bleed"
+       style="color-interpolation-filters:sRGB"
+       inkscape:menu-tooltip="Inky splotches underneath the object"
+       inkscape:menu="Protrusions"
+       height="1.7595639"
+       width="1.2694225"
+       y="-0.37978197"
+       x="-0.13471123"
+       id="filter19">
+      <feTurbulence
+         seed="50"
+         type="fractalNoise"
+         baseFrequency="1"
+         numOctaves="3"
+         result="result1"
+         id="feTurbulence15" />
+      <feColorMatrix
+         type="luminanceToAlpha"
+         in="SourceGraphic"
+         result="result0"
+         id="feColorMatrix15" />
+      <feColorMatrix
+         result="result2"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         id="feColorMatrix16" />
+      <feComposite
+         result="result3"
+         operator="over"
+         in="result1"
+         in2="result2"
+         id="feComposite16" />
+      <feColorMatrix
+         result="result91"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 5 -3.2"
+         id="feColorMatrix17" />
+      <feComposite
+         in2="result91"
+         operator="arithmetic"
+         k1="1.5"
+         result="result93"
+         id="feComposite17"
+         k2="0"
+         k3="0"
+         k4="0" />
+      <feComposite
+         in2="result93"
+         in="SourceGraphic"
+         operator="out"
+         result="result4"
+         id="feComposite18" />
+      <feComposite
+         in2="result4"
+         operator="arithmetic"
+         k2="0.5"
+         k1="1"
+         id="feComposite19"
+         k3="0"
+         k4="0" />
+      <feDisplacementMap
+         scale="15"
+         xChannelSelector="R"
+         yChannelSelector="A"
+         in2="result1"
+         result="fbSourceGraphic"
+         id="feDisplacementMap19" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix20" />
+      <feGaussianBlur
+         id="feGaussianBlur20"
+         result="result1"
+         in="fbSourceGraphic"
+         stdDeviation="10.628 5.808" />
+      <feTurbulence
+         id="feTurbulence20"
+         result="result0"
+         numOctaves="4"
+         baseFrequency="0.034" />
+      <feDisplacementMap
+         id="feDisplacementMap20"
+         result="result2"
+         scale="19.6"
+         yChannelSelector="G"
+         xChannelSelector="R"
+         in="result1"
+         in2="result0" />
+      <feColorMatrix
+         id="feColorMatrix21"
+         values="2 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0.7 0"
+         result="result3" />
+      <feGaussianBlur
+         id="feGaussianBlur21"
+         result="result4"
+         in="fbSourceGraphic"
+         stdDeviation="1.1" />
+      <feComposite
+         id="feComposite21"
+         in="result4"
+         in2="result3" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#4d4d4d;stroke-width:0.264583;filter:url(#filter19)"
+       id="rect6"
+       width="208.94472"
+       height="43.654522"
+       x="-10.820352"
+       y="67.907036"
+       ry="14.924623" />
+  </g>
+</svg>

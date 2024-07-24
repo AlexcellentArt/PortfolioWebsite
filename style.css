@@ -1,0 +1,212 @@
+body{
+    background-color: rgb(18, 28, 70);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+      
+}
+
+img {
+    width: 50%;
+    /* border-radius: 4vw 4vw 1vw 80vw ; */
+    border-radius: 5%;
+}
+.aboutMe
+{
+    display: inline-flex;
+    columns: 2;
+    /* column-gap: 4%; */
+    img {
+        border: 0.5em double black;
+        height: 500px;
+        width: 500px;
+        background-color: rgb(255, 238, 0);
+    }
+    background-color: rgb(29, 40, 75);
+    padding: 5%;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    border-radius: 15%;
+    outline: auto;
+    width: auto;
+}
+span {
+    display: block;
+    
+}
+
+.index{
+    display:inline-block;
+    margin-top: 0%;
+    align-content: center;
+    width: 100%;
+    background-color: rgb(6, 89, 162);
+    padding: 5%;
+    border-radius: 10%;
+    border: 0.5em double black;
+    section {
+        background-color: rgb(4, 12, 68);
+        padding:2%;
+        align-content: center;
+        text-align: center;
+        margin: auto;
+        border-radius: 15%;
+    }
+    img {
+        
+        border: 0.4em solid black;
+        
+    }
+    h1,h2{
+        color: aliceblue;
+        -webkit-text-stroke: 0.03em black;
+        background-color: rgb(12, 25, 113);
+        padding: 2%;
+        margin: auto;
+        border-radius: 5%;
+
+    }
+}
+.blurb
+{
+    /* Purpose of this class is for styling text blurbs */
+    background-color: rgb(48, 48, 127);
+    /* padding: 2vh; */
+    border-radius: 4vw 4vw 1vw 80vw ;
+    border: 0.45em double black;
+    border-top: 1lvh double yellow;
+    display: block;
+    padding-bottom: 15%;
+    padding-left: 5%;
+
+    width: 100%;
+    border-left: 7%;
+    h1{
+        border-color: aqua;
+        color: black;
+        background-color: rgb(255, 247, 0);
+        font-size: 40px;
+        padding: .25em;
+        border-radius: 0vw 7vw ;
+        margin-top: 0;
+        margin-left: -20%;
+        border: 0.1em rgb(255, 202, 78);
+        border-style:  solid dashed dashed  solid ;
+        outline: solid 4px rgb(0, 0, 0);
+        /* mask-image: url("Content/InkBlotBox.svg");
+        mask-size: 00px;
+        mask-repeat: no-repeat;
+        mask-clip: border-box; */
+    }
+    span {
+        /* margin-top: -7.5%;
+        margin-left: 18%;
+        padding-block: 2% 5%;
+        padding-left: 15%;
+        padding-right: 1%; */
+        background-color: rgba(0, 0, 68, 0.367);
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        margin-top: -10%;
+        margin-left: 10%;
+        border-radius: 0vw 7vw ;
+        box-shadow: 0px 0px 2px 2px rgba(34, 23, 122, 0.556);
+     
+        
+    }
+    p { text-align: left;
+        text-indent: 10%;
+        /* margin-top: -7.5%;
+        margin-left: 18%;
+        padding-block: 2% 5%;
+        padding-left: 15%;
+        padding-right: 1%; */
+        color: rgb(255, 255, 255);
+        font-size: 115%;
+
+        /* background-color: rgba(34, 23, 122, 0.556); */
+        /* box-shadow: 0px 0px 16px 20px rgba(34, 23, 122, 0.556); */
+        /* 4px 0px 0px rgba(34, 23, 122, 0.556); */
+        -webkit-text-stroke: 0.0em black;
+        
+        
+
+    }
+    button {
+        align-self: stretch;
+        background-color: rgb(255, 213, 0);
+        outline: auto;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: large;
+        /* -webkit-text-stroke: 0.02em rgb(85, 255, 0); */
+    
+    }
+}
+.portfolioArticle
+{
+    display: inline-flex;
+    border: 1vh solid rgb(255, 230, 0);
+    border-radius: 15vw 1vw 1vw 80vh;
+    /* outline: 0.2em double rgb(20, 3, 255); */
+    outline: 0.2em solid black;
+    align-items: center;
+    img {
+        padding-left: 1vh;
+        width: 50vw;
+        height: 50vh;
+        border-radius: 15vw 80vw 1vw 80vw ;
+        /*  border-radius: 15% 80% 1% 80% ; */
+        /* border-radius: 1vw 80vw 4vw 4vw; */
+        border: 0.5em dashed rgb(48, 48, 127);
+        border-style:  double  dashed  solid solid;
+        outline: 0.25em solid black;
+        /* rgb(0, 2, 129) */
+    }
+    
+}
+nav {
+    /* This makes the header stay in place V */
+    position: fixed;
+    background-color: rgb(30, 65, 180);
+    /* border-radius: 5%; */
+    width: 100%;
+    ul {
+        display: inline-block;
+        columns: 3;
+        border-radius: 0vw 3.5vw ;
+       background-color: rgb(12, 25, 113);
+       width: 100%;
+       margin-top: -1%;
+        li{
+            background-color: rgb(127, 202, 255);
+            /* border-radius: 1vw 80vw 4vw 4vw; */
+            border-radius: 0vw 7vw ;
+            padding: 0.2em;
+            padding-left: 1em;
+            padding-right: 0.5em;
+            outline: auto;
+            
+        }margin-bottom: 1%;
+        padding-left: 5%;
+        padding-block: 2% 2%;
+        
+    }
+    
+    color: black;
+    background-color: rgb(255, 247, 0);
+/* 
+    border-radius: 0vw 7vw ; */
+    border-radius: 0vw 3.5vw ;
+    border: 0.1em rgb(255, 202, 78);
+    border-style:  solid dashed dashed  solid ;
+    outline: solid 4px rgb(0, 0, 0);
+}
+footer {
+    color: black;
+    background-color: rgb(255, 247, 0);
+    border-radius: 0vw 3.5vw ;
+    border: 0.1em rgb(255, 202, 78);
+    border-style:  solid dashed dashed  solid ;
+    outline: solid 4px rgb(0, 0, 0);
+}
